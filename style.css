@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  /* Sets the background color of the page*/
+  body {
+    background-color: #d9dcd6;
+    
+  }
+  
+  /* Sets The font padding and color of the header bar */
+  header {
+    padding-block: 20px;
+
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(244, 231, 194);
+    margin-inline: 5%;
+  }
+  
+  /* font and position of page selectors */
+  header h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    display: inline-block;
+    font-size: 48px;
+  }
+  
+  /* Sets the style of the header */
+  header div {
+    padding-top: 25px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    display: inline-flexbox;
+    width: max-content;
+  }
+  
+  /* sets the style of the header list */
+  header div ul {
+    list-style-type: none;
+    align-items: center;
+    flex-wrap: wrap;
+    display: inline;
+    flex-direction: column;
+  }
+  
+  /* sets the style of the header list items, positioning*/
+  header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    scroll-behavior: smooth;
+  }
+  
+  /* sets the of the universial text, white with no underline for links */
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main{
+    width:90%;
+    height: 800px;
+    background-color: wheat;
+    margin:5%;
+    display: inline-flexbox;
+    padding: 40px;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    
+
+    font-weight: lighter;
+  }
+
+  main img{
+    max-height: 500px;
+    display:flex;
+    float: left;
+    margin-right:50px;
+  }
+
+  main h4{
+    display: block;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 4;
+    padding: 20px;
+    margin-left: 50px;
+  }
+  main a{
+    display: inline;
+    font-size: 25px;
+    line-height: 1;
+    padding-inline: 20px;
+    margin-inline: 20px;
+    padding-block: 5px;
+  }
+
+  .content {
+    width: 75%;
+    height: 2000px;
+    display: inline-block;
+    margin-left: 12.5%;
+  }
+  
+  .form-style {
+    text-align: center;
+    font-size: 26px;
+    margin: 100px;
+    color: white;
+  }
+  
+  .form-style h3 {
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 30px;
+  }
+  
+  .form {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 24px;
+    column-width: 50%;
+    color: white;
+    text-decoration: none;
+  }
+  
+  input {
+    width: 25%;
+    height: 30px;
+    border: 2px solid white;
+    background: none;
+    text-align: left;
+  }
+  
+  .content h2 {
+    text-align: center;
+  }
+  
+  body {
+    background: linear-gradient(-45deg, #494848, #be2c64, #ffc96c, #ac9154);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+  main {
+    height: 600px;
+    
+
+  }
+
+  .portfolio{
+    height: 700px;
+    width: 90%;
+    margin: 5%;
+
+    background-color: wheat; 
+
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: lighter;
+    
+  }
+
+.portfolio h3{
+    padding: 30px;
+    font-size: 70px;
+    font-weight: 5;
+    text-decoration: underline;
+}
+
+  .portfolio .cont{
+    margin-inline: 5%;
+    width: inherit;
+    height: 520px;
+    
+    flex-direction: row;
+    justify-content: space-between;
+
+    display: flexbox;
+    
+  }
+
+  .portfolio .cont .card{
+    display: inline-block;
+    
+    width: 45%;
+    height: 25%;
+
+    
+    background-image: url("../images/TEMP.png");
+
+    text-align: center;
+    vertical-align: middle;
+    padding: 30px;
+    margin: 15px;
+    
+    
+  }
+
+  .portfolio h4{
+    font-weight: lighter;
+  }
+
+/* CSS */
+.button-1 {
+  background-color: rgba(0, 0, 0, 0);
+
+  border-style: solid;
+  border-color: wheat;
+
+
+  color: wheat;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 550;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  
+  margin-left: 20px;
+  margin-top: -20px;
+
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  
+  vertical-align: middle;
+}
+
+.button-1:hover{
+  background-color: #ffffff;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  header{
+    display: block;
+    justify-content: center;
+  }
+  div{
+    flex-direction: row;
+    display: inline-block;
+    
+  }
+}
+
+.projects{
+  width:90%;
+  height: fit-content;
+  margin: 5%;
+  align-items: center;
+  margin-block:50px;
+}
+
+.projects h4{
+  text-align: center;
+  color:white;
+  background-color: wheat;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: lighter;
+  margin-bottom: -10px;
+  margin-top: 10px;
+}
+.projects ul{
+  list-style: none;
+  list-style-type: none;
+  padding-block: 10px;
+}
+.projects .content{
+  background-color: wheat;
+  margin-block: 30px;
+  height: 500px;
+  align-self: center;
+  width: 100%;
+  margin-left: 0px;
+  padding-right: 40px;
+  
+  text-align: center;
+  align-items: center;
+
+  padding-block: 10px;
+}
+.projects .content img{
+  
+  display:flex;
+  float: left;
+
+  Padding: 50px;
+  margin-top: 70px;
+  width:50%;
+  height: fit-content;
+  
+  margin-right: 0px;
+}
+
+.projects .content h4{
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  padding-block: 10px;
+  margin-right: 30px;
+
+}
+
+.projects .content a{
+  display: flex;
+  font-size: 25px;
+  line-height: 1;
+  padding-inline: 20px;
+  margin: 20px;
+  padding-block: 5px;
+  
+}
+.footer {
+  padding: 30px;
+  bottom: 0px;
+  clear: both;
+  text-align: center;
+  background-color: white;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  body header {
+    display: flexbox;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+  }
+  body header h1{
+    display: block;
+  }
+  body header .button-1{
+    display: block;
+  }
+  body header div ul{
+    display: block;
+    flex-wrap: wrap;
+    float: none;
+  }
+
+  main {
+    max-width: 1200px;
+  }
+
+  main a {
+    font-size: medium;
+  }
+}
